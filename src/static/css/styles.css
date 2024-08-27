@@ -1,9 +1,65 @@
 
 :root {
-  --black-color     : #1e1f20;  
-  --body-color      : var(--black-color);
+  
+  --color1 : #000004;
+  --color2 : #262846;
+  --color3 : #585891;
+  --color4 : #9590e7;
+  --color5 : #dccfff;
+
+  body {
+    background-color  : var(--color2);
+  }
+
+  .card {
+    background-color  : var(--color3);
+    border            : solid 2px;
+    border-radius     : 5px;
+    border-color      : var(--color4);
+  }
+  
+  .btn-primary {
+    background-color  : var(--color4);
+    border-color      : var(--color4);
+    color             : var(--color1);
+  }
+  
+  .btn-primary:hover {
+    background-color  : var(--color5);
+    border-color      : var(--color4);
+    color             : var(--color1);
+  }
+
+  h1 {
+    color             : var(--color5) !important;
+  }
+
+  label {
+    color             : var(--color5);
+  }
+
+  table {
+    border-color      : var(--color4);
+  }
+
+  .modal-content {
+    background-color  : var(--color3);
+    border            : solid 2px;
+    border-radius     : 5px;
+    border-color      : var(--color4);
+  }
+
+  .modal-header {
+    border-bottom     : solid 1px;
+    border-color      : var(--color4);
+  }
+
+  .modal-footer {
+    border-top     : solid 1px;
+    border-color      : var(--color4);
+  }
+
+
 }
 
-.body {
-  background-color  : var(--body-color);
-}
+
